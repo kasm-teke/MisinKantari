@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4e370a67ba0f4e93bae5fff42c279aef" Name="Diagram1">
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Fatura" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Fatura_Kalem" Width="1.5" PointX="8.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.FirmaBilgileri" Width="1.5" PointX="3.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.FiyatKayit" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Irsaliye" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Irsaliye_Kalem" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Kalem" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Kisi" Width="1.5" PointX="3.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Kullanici" Width="1.5" PointX="10.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Log" Width="1.5" PointX="13" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Malzeme" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Musteri" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Musteri_Kisi" Width="1.5" PointX="6" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Siparis" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.Siparis_Kalem" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENFAPRJDBModel.User" Width="1.5" PointX="10.75" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Fatura_FirmaBilgileri" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Fatura_Kalem_Fatura" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Fatura_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Fatura_Kalem_Kalem" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Siparis_FirmaBilgileri" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_FiyatKayit_Malzeme" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Irsaliye_Kalem_Irsaliye" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Irsaliye_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Irsaliye_Kalem_Kalem" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Siparis_Kalem_Kalem" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Musteri_Kisi_Kisi" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Siparis_Kisi" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Log_Kullanici" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Malzeme_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Musteri_Kisi_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Siparis_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="ENFAPRJDBModel.FK_Siparis_Kalem_Siparis" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

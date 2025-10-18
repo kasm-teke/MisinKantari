@@ -1,0 +1,12 @@
+﻿# VS / .NET Framework / WPF
+.vs/
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.sln.cache
+# NuGet (packages.config)
+packages/
+# OS
+Thumbs.db
+.DS_Store
